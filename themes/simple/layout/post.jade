@@ -31,7 +31,12 @@ block main
 
   article
     .container.post
-      != page.content
+      - var photoPost = page.content.indexOf('<img')
+      if photoPost == 0
+        p
+          != page.content
+      else
+        != page.content
 
     // comment system
     if theme.duoshuo
