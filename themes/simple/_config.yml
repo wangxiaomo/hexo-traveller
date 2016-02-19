@@ -3,6 +3,7 @@ menu:
   ## If your site is put in a subdirectory, set Home as '/child/'
   Home: /
   Archives: archives
+  Profile: http://wangxiaomo.space
 
 social:
   email: codevvip@yeah.net
