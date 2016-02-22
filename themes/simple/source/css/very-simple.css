@@ -442,7 +442,7 @@ article {
   article a {
     color: #368CCB;
     text-decoration: none;
-    opacity: 0.9;
+    opacity: 0.94
     transition: border .2s;
     transition: color .2s;
     border-bottom: .08em solid lightgray; }
@@ -453,6 +453,7 @@ article {
   article .post .highlight a {
     border: none !important; }
   article blockquote {
+    font-size: 14px;
     margin: 1em 0;
     padding: 0 1em;
     border-left: 5px solid #5DB1B4; }
